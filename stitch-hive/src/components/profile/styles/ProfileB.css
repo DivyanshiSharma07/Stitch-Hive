@@ -1,0 +1,115 @@
+/* Profile Container Styles */
+.profile-container {
+    background-color: #F6F9FB;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  
+  /* Profile Heading Styles */
+  .profile-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 1rem;
+  }
+  
+  /* Boutique Info Styles */
+  .Boutique-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Boutique Avatar Styles */
+  .Boutique-avatar {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Boutique-avatar img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+  
+  /* Profile Details Styles */
+  .profile-details {
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+  
+  .profile-details h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-details p {
+    font-size: 1rem;
+    color: #30475E;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Hire Tailor Section Styles */
+  .hire-tailor-section {
+    margin-top: 5rem;
+  }
+  
+  .hire-tailor-section h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hire-button {
+    background-color: #9FD8DF;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hire-button:hover {
+    background-color: #11324D;
+    transform: scale(1.05);
+  }
+  
+  /* Hired Tailors Section Styles */
+  .hired-tailors-section {
+    margin-top: 1.5rem;
+    border-top: 1px solid #CED4DA;
+    padding-top: 1.5rem;
+  }
+  
+  .hired-tailors-section h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .hired-tailors-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hired-tailors-list li {
+    font-size: 1rem;
+    color: #30475E;
+    margin-bottom: 0.25rem;
+  }
+  

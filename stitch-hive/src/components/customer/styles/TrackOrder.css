@@ -1,0 +1,68 @@
+/* OrderTracking.css */
+.order-tracking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #F6F9FB;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-tracking-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .order-tracking-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .order-tracking-form input {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #11324D;
+    border-radius: 4px;
+    margin-right: 1rem;
+  }
+  
+  .track-button {
+    background-color: #9FD8DF;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .track-button:hover {
+    background-color: #11324D;
+    transform: scale(1.05);
+  }
+  
+  .order-status {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .order-status h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-status p {
+    font-size: 1rem;
+    color: #30475E;
+    margin-bottom: 0.5rem;
+  }
+  

@@ -1,0 +1,148 @@
+/* styles/ProfileA.css */
+
+.admin-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.admin-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button[type="submit"] {
+  background-color: #30475e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* Hire Tailor Section */
+.hire-tailor-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.hire-tailor-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Form Styling */
+.hire-tailor-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.hire-tailor-section h4 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.hire-tailor-section input[type="file"],
+.hire-tailor-section textarea,
+.hire-tailor-section input[type="text"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.hire-tailor-section input[type="file"] {
+  margin-top: 5px;
+}
+
+.hire-tailor-section button[type="submit"] {
+  background-color: #30475e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.hire-tailor-section button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* Optional: You can add more styling to further enhance the appearance */
+/* Orders Section */
+.orders-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orders-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.order {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.order p {
+  margin: 5px 0;
+}

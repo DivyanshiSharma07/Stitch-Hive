@@ -1,0 +1,83 @@
+/* Fashion.css */
+.fashion-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #F6F9FB;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('../styles/i.jpg'); /* Use the imported image */
+  background-size: cover; /* Cover the entire container with the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  text-align:center;
+  }
+  
+  .fashion-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .workshop-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .workshop-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: calc(30% - 20px); /* Three cards per row */
+    transition: transform 0.3s ease; /* Add smooth transition for the transform effect */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+
+  }
+  
+  .workshop-card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .workshop-card p {
+    font-size: 1rem;
+    color: #30475E;
+    margin-bottom: 0.5rem;
+  }
+  
+  .book-button {
+    background-color: #9FD8DF;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #11324D;
+    transform: scale(1.05);
+  }
+  
+  /* 3D hover effect */
+  .workshop-card:hover {
+    transform: translateY(-5px) scale(1.02); /* Lift and slightly scale */
+  }
+  .workshop-card img {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    max-height: 200px; /* Set a maximum height to prevent images from being too tall */
+    object-fit: cover; /* Maintain aspect ratio and cover the available space */
+    border-radius: 8px 8px 0 0; /* Apply rounded corners to the top of the image */
+  }
+  

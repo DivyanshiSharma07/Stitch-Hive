@@ -1,0 +1,44 @@
+.intro-section {
+    position: relative;
+    height: calc(100vh - 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-image: url('../images/DT-2.pdf.png'); /* Set the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity as needed */
+
+  }
+  
+  .intro-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .intro-heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-heading-color {
+    background: linear-gradient(135deg, white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  
+  .intro-subheading {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color:  white;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  

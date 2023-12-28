@@ -1,0 +1,157 @@
+/* Profile Container Styles */
+.profile-container {
+    background-color: #f6f9fb;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Added a stronger shadow for depth */
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  
+  /* Profile Heading Styles */
+  .profile-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #11324d;
+    margin-bottom: 1rem;
+  }
+  
+  /* Boutique Info Styles */
+  .Boutique-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Boutique Avatar Styles */
+  .Boutique-avatar {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Added a stronger shadow for depth */
+  }
+  
+  .Boutique-avatar img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+  
+  /* Profile Details Styles */
+  .profile-details {
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .profile-details h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #11324d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-details p {
+    font-size: 1rem;
+    color: #30475e;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Order Form Styles */
+  .order-form {
+    margin-top: 2rem;
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f9fb 100%); /* Added a subtle gradient background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a stronger shadow for depth */
+  }
+  
+  .order-form h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #11324d;
+    margin-bottom: 1rem;
+  }
+  
+  .order-form label {
+    font-size: 1rem;
+    color: #30475e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #30475e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-form input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #30475e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-form input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #30475e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-form button {
+    background-color: #11324d;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .order-form button:hover {
+    background-color: #54a5e8;
+    transform: scale(1.05);
+  }
+  
+  /* Catalog Details Styles */
+  .catalog-details {
+    margin-top: 2rem;
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f9fb 100%); /* Added a subtle gradient background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a stronger shadow for depth */
+  }
+  
+  .catalog-details h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #11324d;
+    margin-bottom: 1rem;
+  }
+  
+  .catalog-details p {
+    font-size: 1.2rem;
+    color: #30475e;
+    margin-bottom: 0.5rem;
+  }
+  
+  .catalog-details .catalog-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  

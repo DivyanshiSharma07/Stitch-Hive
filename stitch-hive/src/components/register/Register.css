@@ -1,0 +1,93 @@
+.container {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 2rem;
+  background-color: #F6F8FA;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #11324D;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 0.75rem 1.5rem;
+  background-color: #30475E;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #11324D;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #11324D;
+}
+
+a {
+  color: #30475E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* New Styles for Grouped Checkboxes */
+.service-group {
+  margin-top: 1rem;
+}
+
+/* Heading Styles for Grouped Checkboxes */
+.service-group h3 {
+  font-size: 1.2rem;
+  color: #11324D;
+  margin-bottom: 0.5rem;
+}
+
+/* Checkbox Styles */
+.service-checkboxes label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #30475E;
+}
+
+.service-checkboxes input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Adjust checkbox appearance (optional) */
+.service-checkboxes input[type="checkbox"]::before {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #30475E;
+}
+
+.service-checkboxes input[type="checkbox"]:checked::before {
+  background-color: #30475E;
+  border-color: #30475E;
+}

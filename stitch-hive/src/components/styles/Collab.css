@@ -1,0 +1,59 @@
+/* Collab.css */
+.COcontainer {
+  max-width: 1300px !important;
+  margin: 0 auto !important;
+  background-color: #F6F9FB;
+  border-radius: 8px;
+  height: 100vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: url('../styles/bg2.png'); /* Use the imported image */
+  background-size: cover; /* Cover the entire container with the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  text-align: center;
+}
+
+.collab-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: rgba(246, 249, 251, 0.8); /* Adjust the alpha (last) value for transparency */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+
+
+  
+  .collab-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #11324D;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .collab-description {
+    font-size: 1.2rem !important;
+    color: #30475E;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .collab-quote {
+    font-size: 1.2rem !important;
+    color: #11324D;
+    margin-top: 2rem;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 3D hover effect */
+  .collab-container:hover {
+    transform: translateY(-5px) scale(1.02);
+  }
+  
