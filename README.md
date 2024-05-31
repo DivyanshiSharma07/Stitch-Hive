@@ -2,6 +2,12 @@
 
 Stitch-Hive is a comprehensive software solution designed to facilitate personalized clothing services, support local tailors, empower boutique businesses, and streamline the fashion industry. This project aims to connect customers seeking personalized clothing with local tailors and boutiques.
 
+
+https://github.com/DivyanshiSharma07/Stitch-Hive/assets/127393402/346c83a1-a5fe-4567-b6d8-ded83fcd78f8
+
+
+
+
 ## Problem Statement
 In an era dominated by ready-made clothing, there's a challenge in enabling personalized clothing seekers to discover local tailors and boutiques. This project addresses this issue by facilitating the discovery of local tailors for city entrants, empowering small boutiques, unemployed tailors, and boosting the local economy through collaborative initiatives in the fashion industry.
 
